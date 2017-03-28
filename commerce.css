@@ -1,16 +1,10 @@
-body{
+body{ /*Css du body de toute les pages*/
   background-image: url(backgroundBody.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
-
-header{
-
-}
-
-header nav{
+header nav{ /*Css du header de toute les pages*/
   position: relative;
   bottom:22px;
   background-color: rgba(255, 0, 0, 0.32);
@@ -18,11 +12,11 @@ header nav{
   padding-bottom: 15px;
 }
 
-#produits{
+#produits{ /*Css de presentation html de la navbar produit*/
   background-color: rgba(38, 151, 255, 0.43)
 }
 
-h1{
+h1{ /*Css du titre du site*/
   text-align: center;
   background-color: rgba(16, 142, 249, 0.42);
   width: 50%;
@@ -30,7 +24,7 @@ h1{
   color: white;
 }
 
-h2{
+h2{ /*Css des titre 2 de toutes les pages*/
   text-align: center;
   background-color: rgba(16, 249, 151, 0.42);
   position: relative;
@@ -40,17 +34,17 @@ h2{
   color:white;
 }
 
-h3{
+h3{ /*Css des titre 3 de toutes les pages*/
   text-decoration: underline;
   text-align: center;
   background-color: rgba(16, 142, 249, 0.42);
 }
 
-h4{
+h4{ /*Css des titre 4 de toutes les pages*/
   text-align: center;
 }
 
-div{
+div{ /*Css des divs de l'index*/
   display: inline-block;
   width: 30%;
   margin-top:20px;
@@ -60,39 +54,39 @@ div{
   background-color: rgba(147, 209, 166, 0.44);
 }
 
-#presentation{
+#presentation{ /*Css de contenant des fiches produit sur presentation */
   width: 100%;
 }
 
-.Fichepresent{
+.Fichepresent{ /*Css de la class des fiches sur presentation*/
   width: 30%;
 }
 
-div img{
+div img{ /*Css des imagess*/
   position: relative;
   width: 40%;
   height: 40%;
   bottom:100px;
 }
 
-div article{
+div article{ /*Css du contenant du texte des fiches produits*/
   width: 50%;
   position: relative;
   display: inline-block;
 }
 
-body div article p{
+body div article p{ /*Css du texte des fiches produits*/
   position: relative;
   display: inline-block;
 }
 
-a{
+a{ /*Css des liens de toutes les pages*/
   color:white;
   text-decoration: none;
   margin-left:15%;
 }
 
-footer{
+footer{ /*Css du footer sur toutes les pages*/
   background-color: rgba(16, 142, 249, 0.42);
   padding-top:15px;
   padding-bottom:15px;
