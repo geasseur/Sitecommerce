@@ -1,0 +1,47 @@
+*{
+  border:1px solid black;
+}
+
+header{
+
+}
+
+h1{
+  text-align: center;
+}
+
+h3{
+  text-decoration: underline;
+  text-align: center;
+}
+
+div{
+  display: inline-block;
+  width: 30%;
+  margin-left:1%;
+  margin-right: 1%;
+}
+
+div img{
+  position: relative;
+  width: 40%;
+  height: 40%;
+  bottom:100px;
+}
+
+div article{
+  width: 50%;
+  position: relative;
+  display: inline-block;
+}
+
+body div article p{
+  position: relative;
+  display: inline-block;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+  margin-left:15%;
+}
