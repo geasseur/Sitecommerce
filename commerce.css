@@ -1,3 +1,6 @@
+/***************** INDEX *****************/
+/*****************************************/
+
 body{ /*Css du body de toute les pages*/
   background-image: url(backgroundBody.jpg);
   background-repeat: no-repeat;
@@ -12,9 +15,6 @@ header nav{ /*Css du header de toute les pages*/
   padding-bottom: 15px;
 }
 
-#produits{ /*Css de presentation html de la navbar produit*/
-  background-color: rgba(38, 151, 255, 0.43)
-}
 
 h1{ /*Css du titre du site*/
   text-align: center;
@@ -28,16 +28,19 @@ h2{ /*Css des titre 2 de toutes les pages*/
   text-align: center;
   background-color: rgba(16, 249, 151, 0.42);
   position: relative;
-  bottom: 43px;
+  /*bottom: 43px;*/
   padding-top: 10px;
   padding-bottom: 10px;
   color:white;
+  width: 25%;
+  left:37.5%
 }
 
 h3{ /*Css des titre 3 de toutes les pages*/
   text-decoration: underline;
   text-align: center;
   background-color: rgba(16, 142, 249, 0.42);
+  border-bottom: 2px solid black;
 }
 
 h4{ /*Css des titre 4 de toutes les pages*/
@@ -49,20 +52,13 @@ div{ /*Css des divs de l'index*/
   width: 30%;
   margin-top:20px;
   margin-bottom:20px;
-  margin-left:1%;
+  margin-left:1.5%;
   margin-right: 1%;
   background-color: rgba(147, 209, 166, 0.44);
 }
 
-#presentation{ /*Css de contenant des fiches produit sur presentation */
-  width: 100%;
-}
 
-.Fichepresent{ /*Css de la class des fiches sur presentation*/
-  width: 30%;
-}
-
-div img{ /*Css des imagess*/
+div img{ /*Css des images*/
   position: relative;
   width: 40%;
   height: 40%;
@@ -83,6 +79,13 @@ body div article p{ /*Css du texte des fiches produits*/
 a{ /*Css des liens de toutes les pages*/
   color:white;
   text-decoration: none;
+}
+
+footer nav a{ /*règle les différents nom de page*/
+  margin-left:15%;
+}
+
+header nav a{
   margin-left:15%;
 }
 
@@ -91,3 +94,60 @@ footer{ /*Css du footer sur toutes les pages*/
   padding-top:15px;
   padding-bottom:15px;
 }
+
+
+/*************** CSS PRESENTATION****************/
+/************************************************/
+
+.produits{ /*Css de presentation html de la navbar produit*/
+  background-color: rgba(38, 151, 255, 0.43);
+  position: relative;
+  bottom: 22px;
+}
+
+.presentation{ /*Css de contenant des fiches produit sur presentation */
+  width: 100%;
+  margin-left: -2.5px;
+  position: relative;
+}
+
+.Fichepresent{ /*Css de la class des fiches sur presentation*/
+  position: relative;
+  width: 30%;
+  margin-left: 25px;
+}
+
+.Fichepresent img{
+  position: relative;
+  display: inline-block;
+}
+
+.Fichepresent .exemplication{
+  width: 100%;
+}
+
+
+.Fichepresent p{
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  text-align: justify;
+}
+
+
+/*règle les différents nom de page*/
+.produits{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 2px solid black;
+}
+
+.produits a{ /* règle les noms dans la navbar produits de la fiche produit*/
+  margin-left:11%;
+}
+
+/*************************  Contact  ******************************/
+/***************************************************************/
+
+/************************ ITINERAIRE *************************/
+/***********************************************************/
