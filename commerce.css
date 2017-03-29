@@ -9,7 +9,6 @@ body{ /*Css du body de toute les pages*/
 
 header nav{ /*Css du header de toute les pages*/
   position: relative;
-  bottom:22px;
   background-color: rgba(255, 0, 0, 0.32);
   padding-top: 15px;
   padding-bottom: 15px;
@@ -18,9 +17,15 @@ header nav{ /*Css du header de toute les pages*/
 
 h1{ /*Css du titre du site*/
   text-align: center;
+  margin:0 0 0 0;
+  background-image: url(imageheader.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0 0 0;
   background-color: rgba(16, 142, 249, 0.42);
-  width: 50%;
-  margin-left:25%;
+  height: 3em;
+  padding:50px 0 0 0;
+
   color: white;
 }
 
@@ -57,12 +62,12 @@ div{ /*Css des divs de l'index*/
   background-color: rgba(147, 209, 166, 0.44);
 }
 
-
-div img{ /*Css des images*/
+/*Css des images*/
+div img{
   position: relative;
+  float: left;
   width: 40%;
   height: 40%;
-  bottom:100px;
 }
 
 div article{ /*Css du contenant du texte des fiches produits*/
@@ -102,7 +107,6 @@ footer{ /*Css du footer sur toutes les pages*/
 .produits{ /*Css de presentation html de la navbar produit*/
   background-color: rgba(38, 151, 255, 0.43);
   position: relative;
-  bottom: 22px;
 }
 
 .presentation{ /*Css de contenant des fiches produit sur presentation */
@@ -118,19 +122,17 @@ footer{ /*Css du footer sur toutes les pages*/
 }
 
 .Fichepresent img{
-  position: relative;
-  display: inline-block;
+  float: right;
+  top:5px;
 }
 
-.Fichepresent .exemplication{
+.Fichepresent .explication{
   width: 100%;
 }
 
 
 .Fichepresent p{
-  display: inline-block;
   position: relative;
-  width: 50%;
   text-align: justify;
 }
 
@@ -149,5 +151,49 @@ footer{ /*Css du footer sur toutes les pages*/
 /*************************  Contact  ******************************/
 /***************************************************************/
 
+form{
+  position: relative;
+  left: 25%;
+  background-color: rgba(177, 1, 230, 0.26);
+  width: 50%;
+  height: 50%;
+  border: 2px solid black;
+}
+
+section{
+  font-family: sans-serif;
+  color: white;
+}
+
+form section{
+  width: 50%;
+  margin:50px 10px 50px 10px;
+  text-align: center;
+}
+
+form section textarea{
+  position: relative;
+  left:35%;
+  width: 100%;
+  height: 250px;
+}
+
+button{
+  position: relative;
+  border-radius: 1em;
+  left:150px;
+
+}
+
+
+
 /************************ ITINERAIRE *************************/
 /***********************************************************/
+
+.map{
+  border:1px solid black;
+  position: relative;
+  left: 30%;
+  display: inline;
+  padding:0 0 0 0;
+}
