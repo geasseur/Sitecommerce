@@ -333,6 +333,5 @@ ul li a img{
 
 ul li a img:hover{
   margin: 0 0 0 0;
-  border:5px solid rgba(0, 216, 237, 0.36);
   box-shadow: 3px 3px 3px 5px black;
 }
