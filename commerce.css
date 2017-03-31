@@ -148,11 +148,13 @@ footer{ /*Css du footer sur toutes les pages*/
   border:2px solid white;
 }*/
 
+/*Règle les images situées dans les fiches produits*/
 .Fichepresent img{
   float: right;
   bottom:5px;
 }
 
+/*règle les textes des fiches produits*/
 .Fichepresent p{
   position: relative;
   text-align: justify;
@@ -173,24 +175,24 @@ footer{ /*Css du footer sur toutes les pages*/
 /*************************  Contact  ******************************/
 /***************************************************************/
 
-form{
+form{ /*Donne forme au formulaire de la page contact.html*/
   position: relative;
   left: 25%;
   background-color: rgba(177, 1, 230, 0.26);
   width: 50%;
   height: 50%;
-  border: 2px solid black;
 }
 
-section{
+section{ /*Modifie les sections*/
   font-family: sans-serif;
-  color: white;
 }
 
 form section{
   width: 50%;
   margin:50px 10px 50px 10px;
   text-align: center;
+  font-family: sans-serif;
+  color: white;
 }
 
 form section textarea{
@@ -201,6 +203,7 @@ form section textarea{
 }
 
 button{
+  font-family: sans-serif;
   position: relative;
   border-radius: 1em;
   left:150px;
@@ -228,9 +231,10 @@ button{
 }
 
 .blocPresentation .question p{
-  margin:0 0 0 33%;
+  font-family: sans-serif;
+  margin:0 0 0 20%;
   font-size: 20px;
-  width: 40%;
+  width: 60%;
   padding:0 0 2em 0;
 }
 
