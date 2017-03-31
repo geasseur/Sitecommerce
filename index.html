@@ -10,15 +10,26 @@
 
     <!-- entête du site, commun à toutes les pages-->
     <header>
+
+      <section class:"barreRecherche">
+        <label for="nom">Que cherchez vous?:</label>
+        <input type="text" id="recherche" />
+      </section>
+
+      <section class:"boutonRecherche">
+        <button type="submit" id="bouton">Recherchez</button>
+      </section>
+
       <h1>Ho-Mon-Internetttttttttt!&co</h1>
 
       <!--barre de navigation permettant d'aller et venir entre toutes
       les pages, se trouve dans l'entête et le footer-->
       <nav>
-        <a href="index.html">Accueil</a>
-        <a href="presentationPortable.html">Présentation Produit</a>
-        <a href="contact.html">Contact</a>
-        <a href="itineraire.html">Itinéraire</a>
+        <a href="index.html"><img src="iconetroll.jpg" />Accueil</a>
+        <a href="presentationPortable.html"><img src="PipBoy.png" />Présentation Produit</a>
+        <a href="galerie.html"><img src="ohmygod.jpg" />Galerie Produit</a>
+        <a href="contact.html"><img src="trololo.png" />Contact</a>
+        <a href="itineraire.html"><img src="wololo.jpg" />Itinéraire</a>
       </nav>
     </header>
 
@@ -27,22 +38,22 @@
 
     <!-- fiche produit -->
     <a href="presentationPortable.html">
-      <div>
+      <div class="fiche">
         <h3>Portable</h3>
-        <img src="Portable.png" />
+        <img src="Portable.png" alt="montre une image d'ordinateur portable"/>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
 
       </div>
     </a>
 
     <!-- fiche produit -->
     <a href="presentationOrdinateur.html">
-      <div>
+      <div class="fiche">
         <h3> Ordinateur</h3>
-        <img src="hall9000.png"/>
+        <img src="hall9000.png" alt="montre une image d'hal 9000"/>
 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -53,9 +64,9 @@
 
     <!-- fiche produit -->
     <a href="presentationClavier.html">
-      <div>
+      <div class="fiche">
         <h3>Clavier</h3>
-        <img src="clavier.png" />
+        <img src="clavier.png" alt="montre un clavier d'ordinateur"/>
 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -66,9 +77,9 @@
 
     <!-- fiche produit -->
     <a href="presentationWebcam.html">
-      <div>
+      <div class="fiche">
         <h3>Webcam</h3>
-        <img src="webcam.png" />
+        <img src="webcam.png" alt="montre une webcam"/>
 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -80,9 +91,9 @@
 
     <!-- fiche produit -->
     <a href="presentationEcran.html">
-      <div>
+      <div class="fiche">
         <h3>Ecran</h3>
-        <img src="ecran.png"/>
+        <img src="ecran.png" alt="montre un écran d'ordinateur"/>
 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -93,9 +104,9 @@
 
     <!-- fiche produit -->
     <a href="presentationSouris.html">
-      <div>
+      <div class="fiche">
         <h3>Souris</h3>
-        <img src="Souris.png" />
+        <img src="Souris.png" alt="montre une souris d'ordinateur"/>
 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -107,10 +118,11 @@
     <!-- pied de page contenant une barre de navigation -->
     <footer>
       <nav>
-        <a href="index.html">Accueil</a>
-        <a href="presentation.html">Présentation Produit</a>
-        <a href="contact.html">Contact</a>
-        <a href="itinéraire.html">Itinéraire</a>
+        <a href="index.html"><img src="iconetroll.jpg" />Accueil</a>
+        <a href="presentationPortable.html"><img src="PipBoy.png" />Présentation Produit</a>
+        <a href="galerie.html"><img src="ohmygod.jpg" />Galerie Produit</a>
+        <a href="contact.html"><img src="trololo.png" />Contact</a>
+        <a href="itineraire.html"><img src="wololo.jpg" />Itinéraire</a>
       </nav>
     </footer>
 
