@@ -8,13 +8,13 @@ p{
 }
 
 body{ /*Css du body de toute les pages*/
-  background-image: url(backgroundBody.jpg);
+  background-image: url(images/backgroundBody.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 header{ /*Css du header des pages */
-  background-image: url(imageheader.jpg);
+  background-image: url(images/imageheader.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
